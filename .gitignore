@@ -1,5 +1,6 @@
 #LeanFT Results
 **/RunResults/
+lib/
 
 # User-specific stuff
 .idea/**/workspace.xml
