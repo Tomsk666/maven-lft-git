@@ -10,8 +10,9 @@
     <classes>
       <class name="tests.LeanFtTest">
         <methods>
-          <include name="test"/>
-          <!-- <exclude name=".*MethodsToExclude.*"/> -->
+          <include name="test" />
+          <!-- <exclude name=".*MethodstoIgnore.*"/> -->
+<exclude name="simple_ignore" />
         </methods>
       </class>
     </classes>

@@ -55,5 +55,14 @@ public class LeanFtTest extends UnitTestClassBase {
 
         homeLink.click();
     }
+    @Test
+    public void simple_ignore() throws GeneralLeanFtException {
+
+        Link homeLink = browser.describe(Link.class, new LinkDescription.Builder()
+                .innerText("Home ")
+                .tagName("A").build());
+        homeLink.click();
+
+    }
 
 }
