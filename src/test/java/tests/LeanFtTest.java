@@ -55,6 +55,8 @@ public class LeanFtTest extends UnitTestClassBase {
 
         homeLink.click();
     }
+
+    // Let's ignore this next test using the testng.xml suite file
     @Test
     public void simple_ignore() throws GeneralLeanFtException {
 
